@@ -1,0 +1,7 @@
+Vista: Login del Account Controller
+Colocar este elemento hidden en el form
+<input type="hidden" id="ReturnUrl" asp-for="ReturnUrl" />
+
+En la clase Startup faltó inicializar el middleware de autenticación.
+app.UseAuthentication();		--> Debe colocarse despues de app.UseRouting y antes de app.UseAuthorization
+
