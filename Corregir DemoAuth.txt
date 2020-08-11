@@ -5,3 +5,5 @@ Colocar este elemento hidden en el form
 En la clase Startup faltó inicializar el middleware de autenticación.
 app.UseAuthentication();		--> Debe colocarse despues de app.UseRouting y antes de app.UseAuthorization
 
+bla bla bla
+bla bla blabla bla blabla bla blabla bla bla
